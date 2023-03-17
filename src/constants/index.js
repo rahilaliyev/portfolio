@@ -20,7 +20,7 @@ import {
   atltech,
   zira,
   anadolu,
-  kreditemlak,
+  kredit,
 } from "../assets";
 
 export const navLinks = [
