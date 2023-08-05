@@ -1,3 +1,5 @@
+/** @format */
+
 import {
   mobile,
   backend,
@@ -21,6 +23,9 @@ import {
   zira,
   anadolu,
   kredit,
+  port,
+  w2w,
+  kredex,
 } from "../assets";
 
 export const navLinks = [
@@ -144,21 +149,24 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -167,6 +175,45 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Vessel Monitoring System",
+    description: "This site is about vessels and its cargos. The company can operate at the port.",
+    tags: [
+      {
+        name: "react js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "websocket",
+        color: "green-text-gradient",
+      },
+    ],
+    image: port,
+    source_code_link: "https://github.com/",
+    link: "#",
+  },
+  {
+    name: "Walid to Walid (W2W)",
+    description:
+      "My app is a platform that enables people to make transactions, allowing them to buy and sell cryptocurrencies like Bitcoin. Users can perform various financial activities, including buying, selling, and exchanging cryptocurrencies securely through the site.",
+    tags: [
+      {
+        name: "react js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "green-text-gradient",
+      },
+    ],
+    image: w2w,
+    source_code_link: "https://github.com/",
+    link: "https://app.w2w.az/",
+  },
   {
     name: "FC Zira",
     description:
@@ -210,6 +257,28 @@ const projects = [
     image: kredit,
     source_code_link: "https://github.com/",
     link: "https://kreditemlak.az/",
+  },
+  {
+    name: "Kredex",
+    description:
+      "Kredex is a non-banking credit company. It provides information about the company's services, including various credit options, interest rates, and application procedures.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jquery",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kredex,
+    source_code_link: "https://github.com/",
+    link: "https://kredex.az/",
   },
   {
     name: "Anadolu Medical Center",

@@ -1,3 +1,5 @@
+/** @format */
+
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -39,6 +41,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import anadolu from "./anadolu.png";
 import kredit from "./kredit.png";
+import port from "./port.png";
+import w2w from "./w2w.png";
+import kredex from "./kredex.png";
 
 export {
   logo,
@@ -78,4 +83,7 @@ export {
   zira,
   anadolu,
   kredit,
+  port,
+  w2w,
+  kredex,
 };
