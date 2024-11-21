@@ -20,6 +20,7 @@ import {
   ailab,
   globalsoft,
   atltech,
+  kapital,
   zira,
   anadolu,
   kredit,
@@ -53,12 +54,12 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Wordpress",
-    icon: backend,
+    title: "Micro-frontend",
+    icon: creator,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Wordpress",
+    icon: backend,
   },
 ];
 
@@ -112,11 +113,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "React JS Developer",
+    company_name: "Kapital Bank OJSC",
+    icon: kapital,
+    iconBg: "#ffffff",
+    date: "January 2024 - Present",
+    points: [
+      "Developing and maintaining web applications within a micro-frontend architecture using React.js.",
+      "Keeping up-to-date with the latest React.js features and contributing to technical discussions to enhance project architecture.",
+      "Collaborating with cross-functional teams, including designers, product managers, and developers, to create scalable and user-friendly web applications.",
+      "Implementing responsive designs and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to improve code quality and team practices.",
+    ],
+  },
+  {
     title: "React JS & Next JS Developer",
     company_name: "AAILAB",
     icon: ailab,
     iconBg: "#383E56",
-    date: "February 2023 - Present",
+    date: "February 2023 - January 2024",
     points: [
       "Developing and maintaining web applications using React.js and Next.js.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

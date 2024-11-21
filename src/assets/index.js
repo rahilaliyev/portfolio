@@ -34,6 +34,7 @@ import tesla from "./company/tesla.png";
 import ailab from "./company/ailab.png";
 import atltech from "./company/atltech.png";
 import globalsoft from "./company/globalsoft.png";
+import kapital from "./company/kapital.png";
 
 import carrent from "./carrent.png";
 import zira from "./zira.png";
@@ -80,6 +81,7 @@ export {
   ailab,
   atltech,
   globalsoft,
+  kapital,
   zira,
   anadolu,
   kredit,
